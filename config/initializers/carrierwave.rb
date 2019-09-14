@@ -1,6 +1,6 @@
 # config/initializers/carrierwave.rb
 
-if Rails.env.development? || true
+if Rails.env.development? 
   CarrierWave.configure do |config|
     config.storage = :file
     config.enable_processing = false
