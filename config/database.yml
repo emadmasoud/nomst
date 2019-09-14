@@ -84,5 +84,6 @@ test:
 production:
   <<: *default
   database: nomster_production
+  url: <%= ENV['DATABASE_URL'] %>
   # username: nomster
   # password: <%= ENV['NOMSTER_DATABASE_PASSWORD'] %>
