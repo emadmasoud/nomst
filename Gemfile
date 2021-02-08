@@ -88,7 +88,7 @@ gem "geocoder"
 gem "figaro"
 #for sensitive data like passwords, API keys, etc.
 
-gem 'carrierwave', '~> 1.0'
+gem 'carrierwave', '~> 1.3'
 # For uploading photos
 
 gem 'fog-aws'
